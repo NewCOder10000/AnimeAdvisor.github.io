@@ -86,7 +86,7 @@ body {
     color: white;
 }
 
-.chatbot {
+/*.chatbot {
     position: fixed;
     width: 171%;
     background-color: black;
@@ -115,7 +115,7 @@ body {
 
 .chatbot.show{
     margin-top: -251px;
-}
+}*/
 
 .item1:hover{
     color: hsl(0, 0%, 80%);
@@ -157,7 +157,7 @@ body {
     color: hsl(0, 0%, 60%);
 }
 
-.chatbot:hover{
+/*.chatbot:hover{
     color: hsl(0, 0%, 80%);
 }
 
@@ -214,4 +214,4 @@ body {
 .answerArea::placeholder{
     text-indent: -10px;
     color: rgb(185, 185, 185);
-}
+}*/
