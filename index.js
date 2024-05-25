@@ -29,3 +29,15 @@ document.addEventListener("DOMContentLoaded", function() {
         this.placeholder = " 🔎 Type...";
     });
 });
+
+window.watsonAssistantChatOptions = {
+    integrationID: "d90ea5dc-2bbc-4ca5-9288-4b3f8442d5ce",
+    region: "us-south",
+    serviceInstanceID: "8a343fcd-a29d-491b-8752-f8d8259a3758",
+    onLoad: async (instance) => { await instance.render(); }
+};
+setTimeout(function() {
+    const t = document.createElement('script');
+    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+}, 0);
