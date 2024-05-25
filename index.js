@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.getElementById('chatbot').addEventListener('click', function() {
+/*document.getElementById('chatbot').addEventListener('click', function() {
     const chatbotButton = document.getElementById('chatbot');
     const chatbotWindow = document.getElementById('chatbotWindow');
     
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     AnswerArea.addEventListener("blur", function() {
         this.placeholder = " 🔎 Type...";
     });
-});
+});*/
 
 window.watsonAssistantChatOptions = {
     integrationID: "d90ea5dc-2bbc-4ca5-9288-4b3f8442d5ce",
